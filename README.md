@@ -10,6 +10,7 @@ To get started developing right away:
 * start the development server with `npm start`
 
 ## Get Started
+* To run the app, go to `localhost:3000`
 * Press the add button at the bottom and add the books you are interested by changing the shelf in the select dropdown.
 * Press the back button and you can notice the changes in the app.
 * You can update the book's shelf by changing it in the select dropdown.
