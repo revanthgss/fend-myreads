@@ -4,9 +4,6 @@ import BookShelf from './BookShelf';
 
 
 class AllBooks extends Component{
-    componentDidMount() {
-        this.props.onRefreshBooks();
-    }
     render() {
         const books = this.props.books;
         const currentlyReading = books.filter((book) => book.shelf === 'currentlyReading');
